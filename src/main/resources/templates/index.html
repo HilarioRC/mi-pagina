@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hilario - Portafolio</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">H</div>
+            <ul class="nav-links">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/sobre-mi">Sobre mí</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-image">
+        <img src="/images/img_1.png" alt="Foto de perfil" class="full-width-image">
+    </section>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <p class="hero-subtitle">Desarrollo de Software • Datos • Negocios</p>
+                <p class="hero-description">Formándome en ingeniería de software, análisis de datos y procesos
+                    empresariales para crear soluciones tecnológicas con impacto real.</p>
+                <div class="hero-buttons">
+                    <a href="/contacto" class="btn btn-primary">Contáctame</a>
+                    <a href="/sobre-mi" class="btn btn-secondary">Conóceme</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Hilario Reyes Cabello. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
