@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #0B132B 0%, #1C2541 100%);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ body {
 .logo {
     font-size: 2rem;
     font-weight: bold;
-    color: #667eea;
+    color: #3A86FF;
 }
 
 .nav-links {
@@ -136,7 +136,7 @@ body {
 
 .construction-subtitle {
     font-size: 1.3rem;
-    color: #667eea;
+    color: #3A86FF;
     font-weight: 600;
     margin-bottom: 2rem;
 }
@@ -153,24 +153,24 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3A86FF 0%, #4CC9F0 100%);
     color: white;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 20px rgba(58, 134, 255, 0.4);
 }
 
 .footer {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: #1C2541;
     text-align: center;
     padding: 1.5rem;
     margin-top: auto;
 }
 
 .footer p {
-    color: #666;
+    color: #F8F9FA;
     font-size: 0.9rem;
 }
 

@@ -5,16 +5,20 @@
 }
 
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #64748b;
-    --background-color: #ffffff;
-    --text-color: #1e293b;
-    --light-gray: #f8fafc;
-    --border-color: #e2e8f0;
+    --primary-color: #3A86FF;
+    --secondary-color: #4CC9F0;
+    --background-color: #0B132B;
+    --text-color: #F8F9FA;
+    --light-gray: #1C2541;
+    --border-color: #2E3A59;
+    --accent-color: #FFC857;
+    --danger-color: #FF6B6B;
+    --font-primary: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    --font-secondary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-primary);
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -27,6 +31,7 @@ body {
     left: 0;
     right: 0;
     background-color: rgba(255, 255, 255, 0.95);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
     padding: 1rem 2rem;
@@ -158,8 +163,8 @@ body {
 
 /* Footer */
 .footer {
-    background-color: var(--text-color);
-    color: white;
+    background-color: var(--light-gray);
+    color: var(--text-color);
     text-align: center;
     padding: 2rem;
 }

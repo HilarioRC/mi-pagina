@@ -3,18 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #64748b;
-    --background-color: #ffffff;
-    --text-color: #1e293b;
-    --light-gray: #f8fafc;
-    --border-color: #e2e8f0;
+    --primary-color: #3A86FF;      /* Azul eléctrico */
+    --secondary-color: #4CC9F0;    /* Cian */
+    --background-color: #0B132B;   /* Azul marino oscuro */
+    --text-color: #F8F9FA;         /* Blanco cálido */
+    --light-gray: #1C2541;         /* Gris azulado oscuro */
+    --border-color: #2E3A59;       /* Bordes */
+    --accent-color: #FFC857;       /* Dorado */
+    --danger-color: #FF6B6B;       /* Coral */
+    --font-primary: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    --font-secondary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font-primary);
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -27,6 +30,7 @@ body {
     left: 0;
     right: 0;
     background-color: rgba(255, 255, 255, 0.95);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
     padding: 1rem 2rem;
@@ -135,14 +139,14 @@ body {
 
 .hero-subtitle {
     font-size: 1.5rem;
-    color: var(--primary-color);
+    color: var(--text-color);
     margin-bottom: 1rem;
     font-weight: 600;
 }
 
 .hero-description {
     font-size: 1.1rem;
-    color: var(--secondary-color);
+    color: var(--light-gray);
     margin-bottom: 2rem;
 }
 
@@ -187,8 +191,8 @@ body {
 
 /* Footer */
 .footer {
-    background-color: var(--text-color);
-    color: white;
+    background-color: var(--light-gray);
+    color: var(--text-color);
     text-align: center;
     padding: 2rem;
 }
